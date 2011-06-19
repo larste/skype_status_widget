@@ -1,4 +1,0 @@
-<div class="skype">
-<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
-s<a href="skype:<?php echo $username ?>?call"><img src="<?php echo $img_url ?>" /></a>
-</div>
