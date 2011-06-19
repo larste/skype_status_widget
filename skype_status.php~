@@ -1,0 +1,44 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+
+class Widget_Skype_Status extends Widgets
+{
+	public $title = 'Skype Status';
+	public $description = 'Display Skype status on your website';
+	public $author = 'Lars Steen';
+	public $website = 'http://domainers.dk';
+	public $version = '0.1';
+
+	public $fields = array(
+		array(
+			'field' => 'username',
+			'label' => 'Username',
+			'rules' => 'required'
+		)
+	);
+
+	public function run($options)
+	{
+		$img_url = '';
+		switch($options['skype_button']) {
+			case 'green_white':
+				$img_url = $this->get_static_image('call_green_white_153x63.png');
+				break;
+			case '':
+				// do something
+				break;
+		}
+		return array(
+			'username' => $options['username'],
+			'img_url' => $img_url
+			);
+	}
+
+	protected function get_static_image($img)
+	{
+		return 'http://download.skype.com/share/skypebuttons/buttons/' . $img;
+	}
+
+	private function get_dynamic_image()
+	{
+	}
+}
