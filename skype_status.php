@@ -6,7 +6,7 @@ class Widget_Skype_Status extends Widgets
 	public $description = 'Display Skype status on your website';
 	public $author = 'Lars Steen';
 	public $website = 'https://github.com/larste/skype_status';
-	public $version = '1.0.1';
+	public $version = '1.0.5';
 
 	public $fields = array(
 		array(
