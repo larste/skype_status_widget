@@ -1,3 +1,9 @@
-# Install
-Download the latest version and extract it to the addons/shared_addons/widgets folder.  
-Then go to ControlPanel->Content->Widgets and drag the widget to the widget area.
+For how to install this widgiet, check out the [wiki] (https://github.com/larste/skype_status/wiki).
+
+Changelog:
+
+v1.0.5
+* Added some docs
+
+v1.0.1
+* Corrected the www
