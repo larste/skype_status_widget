@@ -1,3 +1,3 @@
-# Install
-Download the latest version and extract it to the addons/shared_addons/widgets folder.  
-Then go to ControlPanel->Content->Widgets and drag the widget to the widget area.
+Skype Status is a widget for [PyroCMS] (http://pyrocms.com) that shows a users current Skype status.
+
+For how to install this widget, check out the [wiki] (https://github.com/larste/skype_status/wiki/Install).
